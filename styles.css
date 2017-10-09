@@ -1,0 +1,51 @@
+body {
+    background-color: maroon;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+ul{ background-color: black;
+    width: 100%;
+}
+
+header{ background-color: black;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    background-color: black;
+   
+}
+
+nav li a{
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    background-color: white;
+    color: olive;
+    text-decoration: none;
+    border-radius: 7px;
+    
+}
+
+nav li a:hover {
+    color: white;
+    background-color: olive;
+}
+
+
+.treba {
+    background-color: green;
+    position: relative;
+    top: 200px;
+    left: 700px;
+    z-index: -1;
+    opacity: 0.5;
+    
+}    
